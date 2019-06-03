@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyNotes</string>
+    <string name="set_date_button">Select Date</string>
+    <string name="user_input_hint">Enter Note Here</string>
+    <string name="positive_confirmation_to_alert_box">Yes</string>
+    <string name="negative_confirmation_to_alert_box">No</string>
+</resources>

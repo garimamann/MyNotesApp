@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/activity_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        tools:context=".Activities.UserDataListViewActivity">
+    <ListView
+            android:id="@+id/activity_user_data_display_list_view_id"
+            android:layout_alignParentTop="true"
+            android:layout_above="@+id/activity_user_data_display_clear_button_id"            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    <Button
+            android:id="@+id/activity_user_data_display_clear_button_id"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="25dp"
+            android:layout_alignParentBottom="true"
+            android:text="Clear Data"/>
+
+
+</RelativeLayout>
